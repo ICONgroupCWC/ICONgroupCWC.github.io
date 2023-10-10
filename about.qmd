@@ -4,6 +4,9 @@ image: ICON.png
 about:
   template: jolla
   links:
+  - icon: People
+    text: People
+    href: https://www.linkedin.com/company/intelligent-connectivity-and-networks-group/
     # - icon: twitter
     #   text: Twitter
     #   href: https://twitter.com
