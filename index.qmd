@@ -1,5 +1,6 @@
 ---
 title: "Intelligent Connectivity and Networks/Systems Research Group"
+image: ICON.png
 listing:
   contents: posts
   sort: "date desc"
