@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "Intelligent Connectivity and Networks/Systems Research Group",
     "section": "",
-    "text": "ICON Group\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEuCNC 2024 Conference Paper\n\n\n\n\n\n\npaper\n\n\nconference\n\n\ncode\n\n\n\n\n\n\n\n\n\nRafaela Scaciota\\(^{1}\\), Glauber Brante\\(^{2}\\), Richard Souza\\(^{3}\\), Onel Lopez\\(^{1}\\), Septimia Sarbu\\(^{1}\\), Mehdi Bennis\\(^{1}\\), and Sumudu Samarakoon\\(^{1}\\).\n\n\n\n\n\n\n\n\n\n\n\n\nEuCNC 2024 Conference Paper\n\n\n\n\n\n\npaper\n\n\nconference\n\n\ncode\n\n\n\n\n\n\n\n\n\nRafaela Scaciota\\(^{1}\\), Glauber Brante\\(^{2}\\), Richard Souza\\(^{3}\\), Onel Lopez\\(^{1}\\), Septimia Sarbu\\(^{1}\\), Mehdi Bennis\\(^{1}\\), and Sumudu Samarakoon\\(^{1}\\).\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 10, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\nNo matching items"
+    "text": "ICON Group\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEuCNC 2024 Conference Paper\n\n\n\n\n\n\npaper\n\n\nconference\n\n\ncode\n\n\n\n\n\n\n\n\n\nRafaela Scaciota\\(^{1}\\), Glauber Brante\\(^{2}\\), Richard Souza\\(^{3}\\), Onel Lopez\\(^{1}\\), Septimia Sarbu\\(^{1}\\), Mehdi Bennis\\(^{1}\\), and Sumudu Samarakoon\\(^{1}\\).\n\n\n\n\n\n\n\n\n\n\n\n\nPercom 2023 Demo Paper\n\n\n\n\n\n\npaper\n\n\nconference\n\n\ndemo\n\n\ncode\n\n\n\n\n\n\n\n\n\nMalith Gallage, Rafaela Scaciota, Sumudu Samarakoon, and Mehdi Bennis.\n\n\n\n\n\n\n\n\n\n\n\n\nMobicom 2023 Demo Paper\n\n\n\n\n\n\npaper\n\n\nconference\n\n\ndemo\n\n\ncode\n\n\n\n\n\n\n\n\n\nMalith Gallage, Rafaela Scaciota, Sumudu Samarakoon, and Mehdi Bennis.\n\n\n\n\n\n\n\n\n\n\n\n\nEuCNC 2024 Conference Paper\n\n\n\n\n\n\npaper\n\n\nconference\n\n\ncode\n\n\n\n\n\n\n\n\n\nRafaela Scaciota\\(^{1}\\), Glauber Brante\\(^{2}\\), Richard Souza\\(^{3}\\), Onel Lopez\\(^{1}\\), Septimia Sarbu\\(^{1}\\), Mehdi Bennis\\(^{1}\\), and Sumudu Samarakoon\\(^{1}\\).\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 10, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -95,21 +95,21 @@
     "href": "posts/PaperConf1.html",
     "title": "EuCNC 2024 Conference Paper",
     "section": "",
-    "text": "The evolving landscape of the Internet of Things (IoT) has given rise to a pressing need for an efficient communication scheme. As the IoT user ecosystem continues to expand, traditional communication protocols grapple with substantial challenges in meeting its burgeoning demands, including energy consumption, scalability, data management, and interference. In response to this, the integration of wireless power transfer and data transmission has emerged as a promising solution. This paper considers an energy harvesting (EH)-oriented data transmission scheme, where a set of users are charged by their own multi-antenna power beacon (PB) and subsequently transmits data to a base station (BS) using an irregular slotted aloha (IRSA) channel access protocol. We propose a closed-form expression to model energy consumption for the present scheme, employing average channel state information (A-CSI) beamforming in the wireless power channel. Subsequently, we employ the reinforcement learning (RL) methodology, wherein every user functions as an agent tasked with the goal of uncovering their most effective strategy for replicating transmissions. This strategy is devised while factoring in their energy constraints and the maximum number of packets they need to transmit. Our results underscore the viability of this solution, particularly when the PB can be strategically positioned to ensure a strong line-of- sight connection with the user, highlighting the potential benefits of optimal deployment."
+    "text": "Decentralized RL-Based Data Transmission Scheme for Energy Efficient Harvesting"
   },
   {
     "objectID": "posts/PaperConf1.html#abstract",
     "href": "posts/PaperConf1.html#abstract",
     "title": "EuCNC 2024 Conference Paper",
-    "section": "",
-    "text": "The evolving landscape of the Internet of Things (IoT) has given rise to a pressing need for an efficient communication scheme. As the IoT user ecosystem continues to expand, traditional communication protocols grapple with substantial challenges in meeting its burgeoning demands, including energy consumption, scalability, data management, and interference. In response to this, the integration of wireless power transfer and data transmission has emerged as a promising solution. This paper considers an energy harvesting (EH)-oriented data transmission scheme, where a set of users are charged by their own multi-antenna power beacon (PB) and subsequently transmits data to a base station (BS) using an irregular slotted aloha (IRSA) channel access protocol. We propose a closed-form expression to model energy consumption for the present scheme, employing average channel state information (A-CSI) beamforming in the wireless power channel. Subsequently, we employ the reinforcement learning (RL) methodology, wherein every user functions as an agent tasked with the goal of uncovering their most effective strategy for replicating transmissions. This strategy is devised while factoring in their energy constraints and the maximum number of packets they need to transmit. Our results underscore the viability of this solution, particularly when the PB can be strategically positioned to ensure a strong line-of- sight connection with the user, highlighting the potential benefits of optimal deployment."
+    "section": "Abstract",
+    "text": "Abstract\nThe evolving landscape of the Internet of Things (IoT) has given rise to a pressing need for an efficient communication scheme. As the IoT user ecosystem continues to expand, traditional communication protocols grapple with substantial challenges in meeting its burgeoning demands, including energy consumption, scalability, data management, and interference. In response to this, the integration of wireless power transfer and data transmission has emerged as a promising solution. This paper considers an energy harvesting (EH)-oriented data transmission scheme, where a set of users are charged by their own multi-antenna power beacon (PB) and subsequently transmits data to a base station (BS) using an irregular slotted aloha (IRSA) channel access protocol. We propose a closed-form expression to model energy consumption for the present scheme, employing average channel state information (A-CSI) beamforming in the wireless power channel. Subsequently, we employ the reinforcement learning (RL) methodology, wherein every user functions as an agent tasked with the goal of uncovering their most effective strategy for replicating transmissions. This strategy is devised while factoring in their energy constraints and the maximum number of packets they need to transmit. Our results underscore the viability of this solution, particularly when the PB can be strategically positioned to ensure a strong line-of- sight connection with the user, highlighting the potential benefits of optimal deployment."
   },
   {
     "objectID": "posts/PaperConf1.html#title",
     "href": "posts/PaperConf1.html#title",
     "title": "EuCNC 2024 Conference Paper",
-    "section": "Title",
-    "text": "Title\nDecentralized RL-Based Data Transmission Scheme for Energy Efficient Harvesting"
+    "section": "",
+    "text": "Decentralized RL-Based Data Transmission Scheme for Energy Efficient Harvesting"
   },
   {
     "objectID": "posts/PaperConf1.html#index-terms",
@@ -124,5 +124,75 @@
     "title": "EuCNC 2024 Conference Paper",
     "section": "Acknowledgements",
     "text": "Acknowledgements\nThis work has been partially supported in Brazil by CAPES, Finance Code 001, CNPq (402378/2021-0, 305021/2021-4, 307226/2021-2). This work is funded by the European Union Project CENTRIC under Grant Agreement (GA 101096379), VERGE (GA 101096034) the project Infotech R2D2, the Research Council of Finland (former Academy of Finland) (GA 348515), and the Finnish Foundation for Technology Promotion. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Commission (granting authority). Neither the European Union nor the granting authority can be held responsible for them.\n\nAfiliation\n^1Centre for Wireless Communication, University of Oulu, Finland\n^2 Federal University of Technology - Paraná, Brazil\n^3Federal University of Santa Catarina, Brazil"
+  },
+  {
+    "objectID": "posts/PaperDemo1.html",
+    "href": "posts/PaperDemo1.html",
+    "title": "Percom 2023 Demo Paper",
+    "section": "",
+    "text": "Codesign of Edge Intelligence and Automated Guided Vehicle Control"
+  },
+  {
+    "objectID": "posts/PaperDemo1.html#title",
+    "href": "posts/PaperDemo1.html#title",
+    "title": "Percom 2023 Demo Paper",
+    "section": "",
+    "text": "Codesign of Edge Intelligence and Automated Guided Vehicle Control"
+  },
+  {
+    "objectID": "posts/PaperDemo1.html#abstract",
+    "href": "posts/PaperDemo1.html#abstract",
+    "title": "Percom 2023 Demo Paper",
+    "section": "Abstract",
+    "text": "Abstract\nThis work presents a harmonic design of autonomous guided vehicle (AGV) control, edge intelligence, and human input to enable autonomous transportation in industrial environments. The AGV has the capability to navigate between a source and destinations and pick/place objects. The human input implicitly provides preferences of the destination and exact drop point, which are derived from an artificial intelligence (AI) module at the network edge and shared with the AGV over a wireless network. The demonstration indicates that the proposed integrated design of hardware, software, and AI design achieve a technology readiness level (TRL) of range 4-5."
+  },
+  {
+    "objectID": "posts/PaperDemo1.html#index-terms",
+    "href": "posts/PaperDemo1.html#index-terms",
+    "title": "Percom 2023 Demo Paper",
+    "section": "Index Terms",
+    "text": "Index Terms\nEdge AI, Image Processing, Autonomous Navigation."
+  },
+  {
+    "objectID": "posts/PaperDemo1.html#acknowledgements",
+    "href": "posts/PaperDemo1.html#acknowledgements",
+    "title": "Percom 2023 Demo Paper",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nThe authors would like to acknowledge the support and contributions of Abdulmomen Ghalka, Dinesh Manimel Wadu, Mithila Amarasena, and Suranga Prasad for developing the image processing solutions.\nThis work was supported by the projects EU-ICT IntellIoT (grant agreement No. 957218) and Infotech-R2D2.\n\nAfiliation\nCentre for Wireless Communication, University of Oulu, Finland"
+  },
+  {
+    "objectID": "posts/PaperDemo2.html",
+    "href": "posts/PaperDemo2.html",
+    "title": "Percon2023 Demo Paper",
+    "section": "",
+    "text": "A Simplified Intelligent Autonomous Obstacle Bypassing Method for Mobile Robots"
+  },
+  {
+    "objectID": "posts/PaperDemo2.html#title",
+    "href": "posts/PaperDemo2.html#title",
+    "title": "Percon2023 Demo Paper",
+    "section": "",
+    "text": "A Simplified Intelligent Autonomous Obstacle Bypassing Method for Mobile Robots"
+  },
+  {
+    "objectID": "posts/PaperDemo2.html#abstract",
+    "href": "posts/PaperDemo2.html#abstract",
+    "title": "Percon2023 Demo Paper",
+    "section": "Abstract",
+    "text": "Abstract\nThis paper presents a demo focusing on developing a robot capable of autonomously bypassing obstacles in cluttered environments using a camera as its sole sensing mechanism. The robot is programmed to follow a predetermined path via a line following module while using a custom object detection model to detect and differentiate obstacles on the road from other objects in the environment. The obstacle detection module based on YOLOv5 architecture can accurately detect obstacles from the surrounding. Upon obstacle detection, the robot initiates an obstacle avoidance maneuver by adjusting its steering based on error measurement, allowing it to navigate around the obstacle smoothly. The proposed design is validated with extensive experimentation, demonstrating its ability to navigate cluttered environments while avoiding obstacles."
+  },
+  {
+    "objectID": "posts/PaperDemo2.html#index-terms",
+    "href": "posts/PaperDemo2.html#index-terms",
+    "title": "Percon2023 Demo Paper",
+    "section": "Index Terms",
+    "text": "Index Terms\nMobile Robots, Image Processing, Autonomous Navigation."
+  },
+  {
+    "objectID": "posts/PaperDemo2.html#acknowledgements",
+    "href": "posts/PaperDemo2.html#acknowledgements",
+    "title": "Percon2023 Demo Paper",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nThis work was supported by the projects EU-ICT IntellIoT (grant agreement No. 957218) and Infotech-R2D2.\n\nAfiliation\nCentre for Wireless Communication, University of Oulu, Finland"
   }
 ]

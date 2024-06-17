@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Rafaela Scaciota^{1}, Glauber Brante^{2}, Richard Souza^{3}, Onel Lopez^{1}, Septimia Sarbu^{1}, Mehdi Bennis^{1}, and Sumudu Samarakoon^{1}.">
+<meta name="author" content="Malith Gallage, Rafaela Scaciota, Sumudu Samarakoon, and Mehdi Bennis.">
 
-<title>ICON Research Group – EuCNC 2024 Conference Paper</title>
+<title>ICON Research Group – Percon2023 Demo Paper</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -4702,65 +4702,6 @@ vertical-align: -.125em;
   }
 }</script>
 
-  
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      var head = document.getElementsByTagName("head")[0];
-      var link = document.createElement("link");
-      link.rel = "stylesheet";
-      link.href = "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css";
-      head.appendChild(link);
-
-      var script = document.createElement("script");
-      script.type = "text/javascript";
-      script.src  = "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js";
-      script.async = false;
-      script.addEventListener('load', function() {
-        var mathElements = document.getElementsByClassName("math");
-          var macros = [];
-          for (var i = 0; i < mathElements.length; i++) {
-            var texText = mathElements[i].firstChild;
-            if (mathElements[i].tagName == "SPAN") {
-              window.katex.render(texText.data, mathElements[i], {
-                displayMode: mathElements[i].classList.contains('display'),
-                throwOnError: false,
-                macros: macros,
-                fleqn: false
-              });
-            }
-          }
-      });
-      head.appendChild(script);
-    });
-  </script>
-  
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <style type="text/css">
 </style>
@@ -4808,10 +4749,11 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">EuCNC 2024 Conference Paper</h1>
+      <h1 class="title">Percon2023 Demo Paper</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">paper</div>
                 <div class="quarto-category">conference</div>
+                <div class="quarto-category">demo</div>
                 <div class="quarto-category">code</div>
               </div>
                   </div>
@@ -4823,7 +4765,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Rafaela Scaciota<span class="math inline">^{1}</span>, Glauber Brante<span class="math inline">^{2}</span>, Richard Souza<span class="math inline">^{3}</span>, Onel Lopez<span class="math inline">^{1}</span>, Septimia Sarbu<span class="math inline">^{1}</span>, Mehdi Bennis<span class="math inline">^{1}</span>, and Sumudu Samarakoon<span class="math inline">^{1}</span>. </p>
+               <p>Malith Gallage, Rafaela Scaciota, Sumudu Samarakoon, and Mehdi Bennis. </p>
             </div>
     </div>
       
@@ -4848,7 +4790,7 @@ window.Quarto = {
   <li><a href="#afiliation" id="toc-afiliation" class="nav-link" data-scroll-target="#afiliation">Afiliation</a></li>
   </ul></li>
   </ul>
-<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://arxiv.org/"><i class="bi bi-file-earmark-pdf-fill"></i>Paper</a></li><li><a href="https://github.com/rafaelascaciota/DecentralizedRL_EnergyEH.git"><i class="bi bi-github"></i>Simulation Code</a></li></ul></div></nav>
+<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://dl.acm.org/doi/abs/10.1145/3570361.3614066"><i class="bi bi-file-earmark-pdf-fill"></i>Paper</a></li><li><a href="https://github.com/ICONgroupCWC/ObstacleBypassing.git"><i class="bi bi-github"></i>Simulation Code</a></li><li><a href="https://youtu.be/zC5y01txFu0?si=3PAVgYLy4aZEsBKs"><i class="bi bi-youtube"></i>Demo Video</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -4859,24 +4801,22 @@ window.Quarto = {
 
 <section id="title" class="level2">
 <h2 class="anchored" data-anchor-id="title">Title</h2>
-<p>Decentralized RL-Based Data Transmission Scheme for Energy Efficient Harvesting</p>
+<p>A Simplified Intelligent Autonomous Obstacle Bypassing Method for Mobile Robots</p>
 </section>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>The evolving landscape of the Internet of Things (IoT) has given rise to a pressing need for an efficient communication scheme. As the IoT user ecosystem continues to expand, traditional communication protocols grapple with substantial challenges in meeting its burgeoning demands, including energy consumption, scalability, data management, and interference. In response to this, the integration of wireless power transfer and data transmission has emerged as a promising solution. This paper considers an energy harvesting (EH)-oriented data transmission scheme, where a set of users are charged by their own multi-antenna power beacon (PB) and subsequently transmits data to a base station (BS) using an irregular slotted aloha (IRSA) channel access protocol. We propose a closed-form expression to model energy consumption for the present scheme, employing average channel state information (A-CSI) beamforming in the wireless power channel. Subsequently, we employ the reinforcement learning (RL) methodology, wherein every user functions as an agent tasked with the goal of uncovering their most effective strategy for replicating transmissions. This strategy is devised while factoring in their energy constraints and the maximum number of packets they need to transmit. Our results underscore the viability of this solution, particularly when the PB can be strategically positioned to ensure a strong line-of- sight connection with the user, highlighting the potential benefits of optimal deployment.</p>
+<p>This paper presents a demo focusing on developing a robot capable of autonomously bypassing obstacles in cluttered environments using a camera as its sole sensing mechanism. The robot is programmed to follow a predetermined path via a line following module while using a custom object detection model to detect and differentiate obstacles on the road from other objects in the environment. The obstacle detection module based on YOLOv5 architecture can accurately detect obstacles from the surrounding. Upon obstacle detection, the robot initiates an obstacle avoidance maneuver by adjusting its steering based on error measurement, allowing it to navigate around the obstacle smoothly. The proposed design is validated with extensive experimentation, demonstrating its ability to navigate cluttered environments while avoiding obstacles.</p>
 </section>
 <section id="index-terms" class="level2">
 <h2 class="anchored" data-anchor-id="index-terms">Index Terms</h2>
-<p>Wireless Powered Systems, Energy Harvesting, Power Beacon, Irregular Slotted Aloha, CSI.</p>
+<p>Mobile Robots, Image Processing, Autonomous Navigation.</p>
 </section>
 <section id="acknowledgements" class="level2">
 <h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
-<p>This work has been partially supported in Brazil by CAPES, Finance Code 001, CNPq (402378/2021-0, 305021/2021-4, 307226/2021-2). This work is funded by the European Union Project CENTRIC under Grant Agreement (GA 101096379), VERGE (GA 101096034) the project Infotech R2D2, the Research Council of Finland (former Academy of Finland) (GA 348515), and the Finnish Foundation for Technology Promotion. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Commission (granting authority). Neither the European Union nor the granting authority can be held responsible for them.</p>
+<p>This work was supported by the projects EU-ICT IntellIoT (grant agreement No. 957218) and Infotech-R2D2.</p>
 <section id="afiliation" class="level3">
 <h3 class="anchored" data-anchor-id="afiliation">Afiliation</h3>
-<p><span class="math inline">^1</span>Centre for Wireless Communication, University of Oulu, Finland</p>
-<p><span class="math inline">^2</span> Federal University of Technology - Paraná, Brazil</p>
-<p><span class="math inline">^3</span>Federal University of Santa Catarina, Brazil</p>
+<p>Centre for Wireless Communication, University of Oulu, Finland</p>
 
 
 </section>

@@ -1,0 +1,48 @@
+---
+title: "Percom 2023 Demo Paper"
+author: "Malith Gallage, Rafaela Scaciota, Sumudu Samarakoon, and Mehdi Bennis."
+categories: [paper, conference, demo, code]
+toc: true
+format:
+  html:
+    html-math-method: katex
+    code-tools: false
+    other-links:
+      - text: Paper
+        icon: file-earmark-pdf-fill
+        href: https://arxiv.org/abs/2305.09788
+      - text: Artifact
+        icon: file-earmark-pdf
+        href: https://ieeexplore.ieee.org/document/10150382
+      - text: Simulation Code
+        icon: github
+        href: https://github.com/ICONgroupCWC/Demo.Percom23.git
+      - text: Demo Video
+        icon: youtube
+        href: https://youtu.be/DhCSCCZbuHo?si=IxRQ1Iz6S_Rh07fK
+    self-contained: true
+execute:
+  warning: false
+---
+
+## Title
+Codesign of Edge Intelligence and Automated Guided Vehicle Control
+
+## Abstract
+
+This work presents a harmonic design of autonomous guided vehicle (AGV) control, edge intelligence, and human input to enable autonomous transportation in industrial environments. The AGV has the capability to navigate between a source and destinations and pick/place objects. The human input implicitly provides preferences of the destination and exact drop point, which are derived from an artificial intelligence (AI) module at the network edge and shared with the AGV over a wireless network. The demonstration indicates that the proposed integrated design of hardware, software, and AI design achieve a technology readiness level (TRL) of range 4-5.
+
+
+## Index Terms
+
+Edge AI, Image Processing, Autonomous Navigation.
+
+## Acknowledgements
+
+The authors would like to acknowledge the support and contributions of Abdulmomen Ghalka, Dinesh Manimel Wadu, Mithila Amarasena, and Suranga Prasad for developing the image processing solutions. 
+
+This work was supported by the projects EU-ICT IntellIoT (grant agreement No. 957218) and Infotech-R2D2.
+
+### Afiliation
+
+Centre for Wireless Communication, University of Oulu, Finland 
