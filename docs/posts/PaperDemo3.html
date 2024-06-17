@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Kalpana Ranasinghe^{1}, H.P. Madushanka^{1}, Rafaela Scaciota^{1,2}, Sumudu Samarakoon^{1,2}, and Mehdi Bennis^{1}.">
+<meta name="author" content="Malith Gallage, Rafaela Scaciota, Sumudu Samarakoon, and Mehdi Bennis.">
 
-<title>ICON Research Group – ISCC 2024 Demo Paper</title>
+<title>ICON Research Group – Mobicom 2023 Demo Paper</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -4702,65 +4702,6 @@ vertical-align: -.125em;
   }
 }</script>
 
-  
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      var head = document.getElementsByTagName("head")[0];
-      var link = document.createElement("link");
-      link.rel = "stylesheet";
-      link.href = "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css";
-      head.appendChild(link);
-
-      var script = document.createElement("script");
-      script.type = "text/javascript";
-      script.src  = "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js";
-      script.async = false;
-      script.addEventListener('load', function() {
-        var mathElements = document.getElementsByClassName("math");
-          var macros = [];
-          for (var i = 0; i < mathElements.length; i++) {
-            var texText = mathElements[i].firstChild;
-            if (mathElements[i].tagName == "SPAN") {
-              window.katex.render(texText.data, mathElements[i], {
-                displayMode: mathElements[i].classList.contains('display'),
-                throwOnError: false,
-                macros: macros,
-                fleqn: false
-              });
-            }
-          }
-      });
-      head.appendChild(script);
-    });
-  </script>
-  
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <style type="text/css">
 </style>
@@ -4808,7 +4749,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">ISCC 2024 Demo Paper</h1>
+      <h1 class="title">Mobicom 2023 Demo Paper</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">paper</div>
                 <div class="quarto-category">conference</div>
@@ -4824,7 +4765,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Kalpana Ranasinghe<span class="math inline">^{1}</span>, H.P. Madushanka<span class="math inline">^{1}</span>, Rafaela Scaciota<span class="math inline">^{1,2}</span>, Sumudu Samarakoon<span class="math inline">^{1,2}</span>, and Mehdi Bennis<span class="math inline">^{1}</span>. </p>
+               <p>Malith Gallage, Rafaela Scaciota, Sumudu Samarakoon, and Mehdi Bennis. </p>
             </div>
     </div>
       
@@ -4849,7 +4790,7 @@ window.Quarto = {
   <li><a href="#afiliation" id="toc-afiliation" class="nav-link" data-scroll-target="#afiliation">Afiliation</a></li>
   </ul></li>
   </ul>
-<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://arxiv.org/"><i class="bi bi-file-earmark-pdf-fill"></i>Paper</a></li><li><a href="https://github.com/ICONgroupCWC/MapDiscoveryDemo.git"><i class="bi bi-github"></i>Simulation Code</a></li><li><a href="https://youtu.be/K2M8MCLn1po?si=4OLsFElnpP5oOzpH"><i class="bi bi-youtube"></i>Demo Video</a></li></ul></div></nav>
+<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://dl.acm.org/doi/abs/10.1145/3570361.3614066"><i class="bi bi-file-earmark-pdf-fill"></i>Paper</a></li><li><a href="https://github.com/ICONgroupCWC/ObstacleBypassing.git"><i class="bi bi-github"></i>Simulation Code</a></li><li><a href="https://youtu.be/zC5y01txFu0?si=3PAVgYLy4aZEsBKs"><i class="bi bi-youtube"></i>Demo Video</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -4860,23 +4801,22 @@ window.Quarto = {
 
 <section id="title" class="level2">
 <h2 class="anchored" data-anchor-id="title">Title</h2>
-<p>Maze Discovery using Multiple Robots via Federated Learning</p>
+<p>A Simplified Intelligent Autonomous Obstacle Bypassing Method for Mobile Robots</p>
 </section>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>This work presents a use case of federated learning (FL) applied to discovering a maze with LiDAR sensors-equipped robots. Goal here is to train classification models to accurately identify the shapes of grid areas within two different square mazes made up with irregular shaped walls. Due to the use of different shapes for the walls, a classification model trained in one maze that captures its structure does not generalize for the other. This issue is resolved by adopting FL framework between the robots that explore only one maze so that the collective knowledge allows them to operate accurately in the unseen maze. This illustrates the effectiveness of FL in real-world applications in terms of enhancing classification accuracy and robustness in maze discovery tasks.</p>
+<p>This paper presents a demo focusing on developing a robot capable of autonomously bypassing obstacles in cluttered environments using a camera as its sole sensing mechanism. The robot is programmed to follow a predetermined path via a line following module while using a custom object detection model to detect and differentiate obstacles on the road from other objects in the environment. The obstacle detection module based on YOLOv5 architecture can accurately detect obstacles from the surrounding. Upon obstacle detection, the robot initiates an obstacle avoidance maneuver by adjusting its steering based on error measurement, allowing it to navigate around the obstacle smoothly. The proposed design is validated with extensive experimentation, demonstrating its ability to navigate cluttered environments while avoiding obstacles.</p>
 </section>
 <section id="index-terms" class="level2">
 <h2 class="anchored" data-anchor-id="index-terms">Index Terms</h2>
-<p>Federated Learning, Maze Discovery.</p>
+<p>Mobile Robots, Image Processing, Autonomous Navigation.</p>
 </section>
 <section id="acknowledgements" class="level2">
 <h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
-<p>This work was supported by NSF-AKA CRUISE (GA 24304406), VERGE (GA 101096034), 6G-INTENSE (GA 101139266), and Infotech-R2D2. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.</p>
+<p>This work was supported by the projects EU-ICT IntellIoT (grant agreement No. 957218) and Infotech-R2D2.</p>
 <section id="afiliation" class="level3">
 <h3 class="anchored" data-anchor-id="afiliation">Afiliation</h3>
-<p><span class="math inline">^1</span> Centre for Wireless Communication, University of Oulu, Finland</p>
-<p><span class="math inline">^2</span> Infortech Oulu, University of Oulu, Finland</p>
+<p>Centre for Wireless Communication, University of Oulu, Finland</p>
 
 
 </section>

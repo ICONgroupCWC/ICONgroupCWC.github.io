@@ -1,0 +1,46 @@
+---
+title: "ISCC 2024 Demo Paper"
+author: "H.P. Madushanka$^{1}$, Rafaela Scaciota$^{1,2}$, Sumudu Samarakoon$^{1,2}$, and Mehdi Bennis$^{1}$."
+categories: [paper, conference, demo, code]
+toc: true
+format:
+  html:
+    html-math-method: katex
+    code-tools: false
+    other-links:
+      - text: Paper
+        icon: file-earmark-pdf-fill
+        href: https://arxiv.org/
+      - text: Simulation Code
+        icon: github
+        href: https://github.com/ICONgroupCWC/Real-Time_VR_RemoteControl.git
+      - text: Demo Video
+        icon: youtube
+        href: https://youtu.be/1Hd78-bGPe0?si=RhAlASp7vuxi9Mnv
+    self-contained: true
+execute:
+  warning: false
+---
+
+## Title
+Real-Time Remote Control via VR over Limited Wireless Connectivity
+
+## Abstract
+
+This work introduces a solution to enhance human-robot interaction over limited wireless connectivity. The goal is toenable remote control of a robot through a virtual reality (VR)interface, ensuring a smooth transition to autonomous mode in
+the event of connectivity loss. The VR interface provides accessto a dynamic 3D virtual map that undergoes continuous updatesusing real-time sensor data collected and transmitted by therobot. Furthermore, the robot monitors wireless connectivity and automatically switches to a autonomous mode in scenarios with limited connectivity. By integrating four key functionalities: real-time mapping, remote control through glasses VR, continuous monitoring of wireless connectivity, and autonomous navigation
+during limited connectivity, we achieve seamless end-to-end operation.
+
+## Index Terms
+
+Remote Control, Virtual Reality, Autonomous Navigation.
+
+## Acknowledgements
+
+This work was supported by NSF-AKA CRUISE (GA 24304406), VERGE (GA 101096034), and Infotech-R2D2. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.
+
+### Afiliation
+
+$^1$ Centre for Wireless Communication, University of Oulu, Finland 
+
+$^2$ Infortech Oulu, University of Oulu, Finland 

@@ -38,8 +38,8 @@ This work has been partially supported in Brazil by CAPES, Finance Code 001, CNP
 
 ### Afiliation
 
-$^1$Centre for Wireless Communication, University of Oulu, Finland 
+$^1$ Centre for Wireless Communication, University of Oulu, Finland 
 
 $^2$ Federal University of Technology - Paraná, Brazil 
 
-$^3$Federal University of Santa Catarina, Brazil
+$^3$ Federal University of Santa Catarina, Brazil

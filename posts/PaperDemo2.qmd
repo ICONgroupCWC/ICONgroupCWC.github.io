@@ -1,6 +1,6 @@
 ---
-title: "Mobicom 2023 Demo Paper"
-author: "Malith Gallage, Rafaela Scaciota, Sumudu Samarakoon, and Mehdi Bennis."
+title: "ISCC 2024 Demo Paper"
+author: "Kalpana Ranasinghe$^{1}$, H.P. Madushanka$^{1}$, Rafaela Scaciota$^{1,2}$, Sumudu Samarakoon$^{1,2}$, and Mehdi Bennis$^{1}$."
 categories: [paper, conference, demo, code]
 toc: true
 format:
@@ -10,36 +10,36 @@ format:
     other-links:
       - text: Paper
         icon: file-earmark-pdf-fill
-        href: https://dl.acm.org/doi/abs/10.1145/3570361.3614066
+        href: https://arxiv.org/
       - text: Simulation Code
         icon: github
-        href: https://github.com/ICONgroupCWC/ObstacleBypassing.git
+        href: https://github.com/ICONgroupCWC/MapDiscoveryDemo.git
       - text: Demo Video
         icon: youtube
-        href: https://youtu.be/zC5y01txFu0?si=3PAVgYLy4aZEsBKs
+        href: https://youtu.be/K2M8MCLn1po?si=4OLsFElnpP5oOzpH
     self-contained: true
 execute:
   warning: false
 ---
 
 ## Title
-A Simplified Intelligent Autonomous Obstacle Bypassing Method for Mobile Robots
+Maze Discovery using Multiple Robots via Federated Learning
 
 ## Abstract
 
-This paper presents a demo focusing on developing a robot capable of autonomously bypassing obstacles in cluttered environments using a camera as its sole sensing mechanism. The robot is programmed to follow a predetermined path via a line following
-module while using a custom object detection model to detect and differentiate obstacles on the road from other objects in the environment. The obstacle detection module based on YOLOv5 architecture can accurately detect obstacles from the surrounding. Upon obstacle detection, the robot initiates an obstacle avoidance maneuver by adjusting its steering based on error measurement, allowing it
-to navigate around the obstacle smoothly. The proposed design is validated with extensive experimentation, demonstrating its ability to navigate cluttered environments while avoiding obstacles.
+This work presents a use case of federated learning (FL) applied to discovering a maze with LiDAR sensors-equipped robots. Goal here is to train classification models to accurately identify the shapes of grid areas within two different square mazes made up with irregular shaped walls. Due to the use of different shapes for the walls, a classification model trained in one maze that captures its structure does not generalize for the other. This issue is resolved by adopting FL framework between the robots that explore only one maze so that the collective knowledge allows them to operate accurately in the unseen maze. This illustrates the effectiveness of FL in real-world applications in terms of enhancing classification accuracy and robustness in maze discovery tasks.
 
 
 ## Index Terms
 
-Mobile Robots, Image Processing, Autonomous Navigation.
+Federated Learning, Maze Discovery.
 
 ## Acknowledgements
 
-This work was supported by the projects EU-ICT IntellIoT (grant agreement No. 957218) and Infotech-R2D2.
+This work was supported by NSF-AKA CRUISE (GA 24304406), VERGE (GA 101096034), 6G-INTENSE (GA 101139266), and Infotech-R2D2. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.
 
 ### Afiliation
 
-Centre for Wireless Communication, University of Oulu, Finland 
+$^1$ Centre for Wireless Communication, University of Oulu, Finland 
+
+$^2$ Infortech Oulu, University of Oulu, Finland 
