@@ -23,14 +23,14 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ICON Research Group",
+    "title": "Intelligent Connectivity and Networks/Systems Research Group",
     "section": "",
-    "text": "Quarto Basics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDecentralized RL-Based Data Transmission Scheme for Energy Efficient Harvesting\n\n\n\n\n\n\n\n\n\n\n\nRafaela Scaciota\\(^{1}\\), Glauber Brante\\(^{2}\\), Richard Souza\\(^{3}\\), Onel Lopez\\(^{1}\\), Septimia Sarbu\\(^{1}\\), Mehdi Bennis\\(^{1}\\), and Sumudu Samarakoon\\(^{1}\\).\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 10, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 7, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Quarto Basics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEuCNC 2024 Conference Paper\n\n\n\n\n\n\npaper\n\n\nconference\n\n\ncode\n\n\n\n\n\n\n\n\n\nRafaela Scaciota\\(^{1}\\), Glauber Brante\\(^{2}\\), Richard Souza\\(^{3}\\), Onel Lopez\\(^{1}\\), Septimia Sarbu\\(^{1}\\), Mehdi Bennis\\(^{1}\\), and Sumudu Samarakoon\\(^{1}\\).\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 10, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 7, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Contact",
     "section": "",
     "text": "Intelligent Connectivity and Networks (ICON) group is a research group at the University of Oulu, Center for wireless communication (CWC). We are interested in the design, implementation, and evaluation of networked systems."
   },
@@ -44,29 +44,36 @@
   {
     "objectID": "posts/PaperTeste.html",
     "href": "posts/PaperTeste.html",
-    "title": "Decentralized RL-Based Data Transmission Scheme for Energy Efficient Harvesting",
+    "title": "EuCNC 2024 Conference Paper",
     "section": "",
     "text": "The evolving landscape of the Internet of Things (IoT) has given rise to a pressing need for an efficient communication scheme. As the IoT user ecosystem continues to expand, traditional communication protocols grapple with substantial challenges in meeting its burgeoning demands, including energy consumption, scalability, data management, and interference. In response to this, the integration of wireless power transfer and data transmission has emerged as a promising solution. This paper considers an energy harvesting (EH)-oriented data transmission scheme, where a set of users are charged by their own multi-antenna power beacon (PB) and subsequently transmits data to a base station (BS) using an irregular slotted aloha (IRSA) channel access protocol. We propose a closed-form expression to model energy consumption for the present scheme, employing average channel state information (A-CSI) beamforming in the wireless power channel. Subsequently, we employ the reinforcement learning (RL) methodology, wherein every user functions as an agent tasked with the goal of uncovering their most effective strategy for replicating transmissions. This strategy is devised while factoring in their energy constraints and the maximum number of packets they need to transmit. Our results underscore the viability of this solution, particularly when the PB can be strategically positioned to ensure a strong line-of- sight connection with the user, highlighting the potential benefits of optimal deployment."
   },
   {
     "objectID": "posts/PaperTeste.html#abstract",
     "href": "posts/PaperTeste.html#abstract",
-    "title": "Decentralized RL-Based Data Transmission Scheme for Energy Efficient Harvesting",
+    "title": "EuCNC 2024 Conference Paper",
     "section": "",
     "text": "The evolving landscape of the Internet of Things (IoT) has given rise to a pressing need for an efficient communication scheme. As the IoT user ecosystem continues to expand, traditional communication protocols grapple with substantial challenges in meeting its burgeoning demands, including energy consumption, scalability, data management, and interference. In response to this, the integration of wireless power transfer and data transmission has emerged as a promising solution. This paper considers an energy harvesting (EH)-oriented data transmission scheme, where a set of users are charged by their own multi-antenna power beacon (PB) and subsequently transmits data to a base station (BS) using an irregular slotted aloha (IRSA) channel access protocol. We propose a closed-form expression to model energy consumption for the present scheme, employing average channel state information (A-CSI) beamforming in the wireless power channel. Subsequently, we employ the reinforcement learning (RL) methodology, wherein every user functions as an agent tasked with the goal of uncovering their most effective strategy for replicating transmissions. This strategy is devised while factoring in their energy constraints and the maximum number of packets they need to transmit. Our results underscore the viability of this solution, particularly when the PB can be strategically positioned to ensure a strong line-of- sight connection with the user, highlighting the potential benefits of optimal deployment."
   },
   {
     "objectID": "posts/PaperTeste.html#index-terms",
     "href": "posts/PaperTeste.html#index-terms",
-    "title": "Decentralized RL-Based Data Transmission Scheme for Energy Efficient Harvesting",
+    "title": "EuCNC 2024 Conference Paper",
     "section": "Index Terms",
     "text": "Index Terms\nWireless Powered Systems, Energy Harvesting, Power Beacon, Irregular Slotted Aloha, CSI."
   },
   {
     "objectID": "posts/PaperTeste.html#acknowledgements",
     "href": "posts/PaperTeste.html#acknowledgements",
-    "title": "Decentralized RL-Based Data Transmission Scheme for Energy Efficient Harvesting",
+    "title": "EuCNC 2024 Conference Paper",
     "section": "Acknowledgements",
     "text": "Acknowledgements\nThis work has been partially supported in Brazil by CAPES, Finance Code 001, CNPq (402378/2021-0, 305021/2021-4, 307226/2021-2). This work is funded by the European Union Project CENTRIC under Grant Agreement (GA 101096379), VERGE (GA 101096034) the project Infotech R2D2, the Research Council of Finland (former Academy of Finland) (GA 348515), and the Finnish Foundation for Technology Promotion. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Commission (granting authority). Neither the European Union nor the granting authority can be held responsible for them.\n\nAfiliation\n^1Centre for Wireless Communication, University of Oulu, Finland\n^2 Federal University of Technology - Paraná, Brazil\n^3Federal University of Santa Catarina, Brazil"
+  },
+  {
+    "objectID": "posts/PaperTeste.html#title",
+    "href": "posts/PaperTeste.html#title",
+    "title": "EuCNC 2024 Conference Paper",
+    "section": "Title",
+    "text": "Title\nDecentralized RL-Based Data Transmission Scheme for Energy Efficient Harvesting"
   }
 ]

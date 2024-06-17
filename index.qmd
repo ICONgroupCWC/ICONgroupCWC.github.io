@@ -1,5 +1,5 @@
 ---
-title: "ICON Research Group"
+title: "Intelligent Connectivity and Networks/Systems Research Group"
 listing:
   contents: posts
   sort: "date desc"
