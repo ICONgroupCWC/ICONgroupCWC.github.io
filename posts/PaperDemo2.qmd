@@ -25,6 +25,9 @@ execute:
 ## Title
 Maze Discovery using Multiple Robots via Federated Learning
 
+## System Model
+![Robotic platform of two mazes.](Fig/setup_demo2.png)
+
 ## Abstract
 
 This work presents a use case of federated learning (FL) applied to discovering a maze with LiDAR sensors-equipped robots. Goal here is to train classification models to accurately identify the shapes of grid areas within two different square mazes made up with irregular shaped walls. Due to the use of different shapes for the walls, a classification model trained in one maze that captures its structure does not generalize for the other. This issue is resolved by adopting FL framework between the robots that explore only one maze so that the collective knowledge allows them to operate accurately in the unseen maze. This illustrates the effectiveness of FL in real-world applications in terms of enhancing classification accuracy and robustness in maze discovery tasks.
@@ -33,6 +36,7 @@ This work presents a use case of federated learning (FL) applied to discovering 
 ## Index Terms
 
 Federated Learning, Maze Discovery.
+
 
 ## Acknowledgements
 

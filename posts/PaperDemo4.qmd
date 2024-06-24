@@ -25,6 +25,9 @@ execute:
 ## Title
 Real-Time Remote Control via VR over Limited Wireless Connectivity
 
+## System Model
+![The robotic platform highlighting the components and wireless connectivity. The red and blue lines represent the connection between each device, with dashed lines showing wireless connections and continuous lines showing wired connections.](Fig/setup_demo4.png)
+
 ## Abstract
 
 This work introduces a solution to enhance human-robot interaction over limited wireless connectivity. The goal is toenable remote control of a robot through a virtual reality (VR)interface, ensuring a smooth transition to autonomous mode in

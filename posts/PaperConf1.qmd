@@ -10,7 +10,7 @@ format:
     other-links:
       - text: Paper
         icon: file-earmark-pdf-fill
-        href: https://arxiv.org/
+        href: https://arxiv.org/submit/5680314
       - text: Simulation Code
         icon: github
         href: https://github.com/rafaelascaciota/DecentralizedRL_EnergyEH.git
@@ -21,6 +21,9 @@ execute:
 
 ## Title
 Decentralized RL-Based Data Transmission Scheme for Energy Efficient Harvesting
+
+## System Model
+![WPT with a B and $U$ user's RF-EH system model](Fig/SM_Conf1.png)
 
 ## Abstract
 

@@ -25,6 +25,9 @@ execute:
 ## Title
 A Simplified Intelligent Autonomous Obstacle Bypassing Method for Mobile Robots
 
+## System Model
+![Hardware used in the demonstration.](Fig/obs-avoi-setup.png)
+
 ## Abstract
 
 This paper presents a demo focusing on developing a robot capable of autonomously bypassing obstacles in cluttered environments using a camera as its sole sensing mechanism. The robot is programmed to follow a predetermined path via a line following
