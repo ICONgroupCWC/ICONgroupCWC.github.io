@@ -1,0 +1,44 @@
+---
+title: "PIMRC 2024 Conference Paper"
+author: "Rasika Vijithasena$^{1,2}$, Rafaela Scaciota$^{1,2}$, Mehdi Bennis$^{1}$, and Sumudu Samarakoon$^{1,2}$."
+categories: [paper, conference, code]
+toc: true
+format:
+  html:
+    html-math-method: katex
+    code-tools: false
+    other-links:
+      - text: Paper
+        icon: file-earmark-pdf-fill
+        href: https://arxiv.org/abs/2406.14301
+      - text: Simulation Code
+        icon: github
+        href: https://github.com/rasikavijithasena/TailBasedControl
+    self-contained: true
+execute:
+  warning: false
+---
+
+## Title
+Resource Optimization for Tail-Based Control in Wireless Networked Control Systems
+
+## System Model
+![An illustration of $M$ number of WNCS where sensor-controller communication takes place over a shared wireless network.](Fig/SM_Conf2.jpg)
+
+## Abstract
+
+Achieving control stability is one of the key design challenges of scalable Wireless Networked Control Systems (WNCS) under limited communication and computing resources. This paper explores the use of an alternative control concept defined as tail-based control, which extends the classical Linear Quadratic Regulator (LQR) cost function for multiple dynamic control systems over a shared wireless network. We cast the control of multiple control systems as a network-wide optimization problem and decouple it in terms of sensor scheduling, plant state prediction, and control policies. Toward this, we propose a solution consisting of a scheduling algorithm based on Lyapunov optimization for sensing, a mechanism based on Gaussian Process Regression (GPR) for state prediction and uncertainty estimation, and a control policy based on Reinforcement Learning (RL) to ensure tail-based control stability. A set of discrete time-invariant mountain car control systems is used to evaluate the proposed solution and is compared against four variants that use state-of-the-art scheduling, prediction, and control methods. The experimental results indicate that the proposed method yields 22% reduction in overall cost in terms of communication and control resource utilization compared to state-of-the-art methods.
+
+## Index Terms
+
+Tail-based control, GPR, WNCS, Lyapunov optimization, RL policy. 
+
+## Acknowledgements
+
+This work is funded by the European Union Projects 6G-INTENSE (GA 101139266), VERGE (GA 101096034) and the project Infotech R2D2. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.
+
+### Afiliation
+
+$^1$ Centre for Wireless Communication, University of Oulu, Finland 
+
+$^2$ Infortech Oulu, University of Oulu, Finland 

@@ -1,0 +1,42 @@
+---
+title: "GLOBECOM 2023 Conference Paper"
+author: "Charbel Bou Chaaya$^{1}$, Sumudu Samarakoon$^{1}$, and Mehdi Bennis$^{1}$."
+categories: [paper, conference, code]
+toc: true
+format:
+  html:
+    html-math-method: katex
+    code-tools: false
+    other-links:
+      - text: Paper
+        icon: file-earmark-pdf-fill
+        href: https://ieeexplore.ieee.org/document/10437657
+      - text: Simulation Code
+        icon: github
+        href: https://github.com/ICONgroupCWC/FL_Heterogeneous
+    self-contained: true
+execute:
+  warning: false
+---
+
+## Title
+Federated Learning Games for Reconfigurable Intelligent Surfaces via Causal Representations
+
+## System Model
+![System model illustrating different RIS-assisted communication scenarios. Each RIS is conceived differently from other RISs, and serves differently distributed receivers.](Fig/SM_Conf3.png)
+
+## Abstract
+
+In this paper, we investigate the problem of robust Reconfigurable Intelligent Surface (RIS) phase-shifts configuration over heterogeneous communication environments. The problem is formulated as a distributed learning problem over different environments in a Federated Learning (FL) setting. Equivalently, this corresponds to a game played between multiple RISs, as learning agents, in heterogeneous environments. Using Invariant Risk Minimization (IRM) and its FL equivalent, dubbed FL Games, we solve the RIS configuration problem by learning invariant causal representations across multiple environments and then predicting the phases. The solution corresponds to playing according to Best Response Dynamics (BRD) which yields the Nash Equilibrium of the FL game. The representation learner and the phase predictor are modeled by two neural networks, and their performance is validated via simulations against other benchmarks from the literature. Our results show that causality-based learning yields a predictor that is 15 % more accurate in unseen Out-of-Distribution (OoD) environments.
+
+## Index Terms
+
+Reconfigurable Intelligent Surface (RIS), Federated Learning, Causal Inference, Invariant Learning. 
+
+## Acknowledgements
+
+This work was supported by Project Infotech R2D2 and the European Commission Horizon Europe SNS JU Projects DESIRE6G (GA 101096466), ADROIT6G (GA 101095363) and VERGE (GA 101096034).
+
+### Afiliation
+
+$^1$ Centre for Wireless Communication, University of Oulu, Finland 
