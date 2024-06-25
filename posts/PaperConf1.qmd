@@ -10,7 +10,7 @@ format:
     other-links:
       - text: Paper
         icon: file-earmark-pdf-fill
-        href: https://arxiv.org/submit/5680314
+        href: https://arxiv.org/abs/2406.16624
       - text: Simulation Code
         icon: github
         href: https://github.com/rafaelascaciota/DecentralizedRL_EnergyEH.git
