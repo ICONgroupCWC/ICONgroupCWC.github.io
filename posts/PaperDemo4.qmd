@@ -10,7 +10,7 @@ format:
     other-links:
       - text: Paper
         icon: file-earmark-pdf-fill
-        href: https://arxiv.org/
+        href: https://arxiv.org/submit/5690151
       - text: Simulation Code
         icon: github
         href: https://github.com/ICONgroupCWC/Real-Time_VR_RemoteControl.git
@@ -30,9 +30,7 @@ Real-Time Remote Control via VR over Limited Wireless Connectivity
 
 ## Abstract
 
-This work introduces a solution to enhance human-robot interaction over limited wireless connectivity. The goal is toenable remote control of a robot through a virtual reality (VR)interface, ensuring a smooth transition to autonomous mode in
-the event of connectivity loss. The VR interface provides accessto a dynamic 3D virtual map that undergoes continuous updatesusing real-time sensor data collected and transmitted by therobot. Furthermore, the robot monitors wireless connectivity and automatically switches to a autonomous mode in scenarios with limited connectivity. By integrating four key functionalities: real-time mapping, remote control through glasses VR, continuous monitoring of wireless connectivity, and autonomous navigation
-during limited connectivity, we achieve seamless end-to-end operation.
+This work introduces a solution to enhance human-robot interaction over limited wireless connectivity. The goal is toenable remote control of a robot through a virtual reality (VR)interface, ensuring a smooth transition to autonomous mode in the event of connectivity loss. The VR interface provides accessto a dynamic 3D virtual map that undergoes continuous updatesusing real-time sensor data collected and transmitted by therobot. Furthermore, the robot monitors wireless connectivity and automatically switches to a autonomous mode in scenarios with limited connectivity. By integrating four key functionalities: real-time mapping, remote control through glasses VR, continuous monitoring of wireless connectivity, and autonomous navigation during limited connectivity, we achieve seamless end-to-end operation.
 
 ## Index Terms
 

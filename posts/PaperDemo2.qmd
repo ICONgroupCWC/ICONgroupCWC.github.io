@@ -10,7 +10,7 @@ format:
     other-links:
       - text: Paper
         icon: file-earmark-pdf-fill
-        href: https://arxiv.org/
+        href: https://arxiv.org/submit/5690119
       - text: Simulation Code
         icon: github
         href: https://github.com/ICONgroupCWC/MapDiscoveryDemo.git
