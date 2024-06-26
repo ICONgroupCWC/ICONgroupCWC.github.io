@@ -10,7 +10,7 @@ format:
     other-links:
       - text: Paper
         icon: file-earmark-pdf-fill
-        href: https://arxiv.org/submit/5690151
+        href: http://arxiv.org/abs/2406.17420
       - text: Simulation Code
         icon: github
         href: https://github.com/ICONgroupCWC/Real-Time_VR_RemoteControl.git
